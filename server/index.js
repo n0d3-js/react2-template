@@ -1,6 +1,9 @@
-import express from 'express';
-import compression from 'compression';
-import morgan from 'morgan';
+/* eslint-disable no-console */
+
+const express = require('express');
+const path = require('path');
+const compression = require('compression');
+const morgan = require('morgan');
 
 const app = express();
 

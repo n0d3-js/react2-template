@@ -1,7 +1,3 @@
 node_modules/
-dst/
-coverage/
-logs/
-temp/
 static/vendor/
 static/code/
