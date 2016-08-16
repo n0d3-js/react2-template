@@ -2,7 +2,7 @@
   "name": "template",
   "version": "1.0.3",
   "scripts": {
-    "dev": "PORT=3333 node dst/server.js"
+    "dev": "PORT=3333 node server/index.js"
   },
   "author": "Chyld Medford",
   "license": "MIT",
