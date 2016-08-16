@@ -1,43 +1,27 @@
 # SERVER NODE MODULES
 # **************************************************************************** #
-npm i bluebird \
-  body-parser \
-  compression \
+npm i compression \
   express \
-  mongoose \
-  request \
-  mongoose \
-  serve-favicon \
-  joi \
-  morgan \
-  winston --save
+  morgan --save
 
 npm i babel-cli \
   babel-eslint \
   babel-preset-es2015 \
   babel-preset-react \
   babel-preset-stage-0 \
-  chai \
   chokidar-cli \
   eslint \
   eslint-config-airbnb \
   eslint-plugin-import \
   eslint-plugin-jsx-a11y \
-  eslint-plugin-react \
-  istanbul \
-  mocha \
-  nock \
-  nodemon \
-  sinon \
-  supertest --save-dev
+  eslint-plugin-react --save-dev
 
 # CLIENT NODE MODULES
 # **************************************************************************** #
 npm i react \
   react-dom \
   react-router \
-  isomorphic-fetch \
-  es6-promise --save
+  axios --save
 
 npm install webpack \
   babel-loader --save-dev
