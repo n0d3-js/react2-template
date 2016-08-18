@@ -16,3 +16,7 @@ const port = process.env.PORT || 3333;
 app.listen(port, () => {
   console.log('Express.js is now serving react.js files on port:', port);
 });
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../static/index.html'));
+});
